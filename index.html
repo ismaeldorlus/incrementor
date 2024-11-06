@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html id="HTML">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="theBody">
+    <h1>Incrementing Variables & Random Values</h1>
+    <hr />
+
+    <!-- Numbers Area -->
+    <h2>Incrementing Numbers</h2>
+    <p id="display">0</p>
+    <p>
+      <button id="minus50">-50</button>
+      <button id="minus10">-10</button>
+      <button id="minus1">-1</button>
+
+      <button id="plus1">+1</button>
+      <button id="plus10">+10</button>
+      <button id="plus50">+50</button>
+    </p>
+
+    <!-- String Area -->
+    <hr />
+    <h2>Incrementing Strings</h2>
+    <p>Type a word into the box and hit enter to add it to the sentence.</p>
+
+    <p><input id="strIn" /></p>
+
+    <p id="strOut">Once upon a time,</p>
+
+    <hr />
+
+    <h2>Random Values</h2>
+    <p>Math.random() produces are random decimal number from 0 to 0.999...</p>
+    <p>
+      <button id="rand1">Random 0 - 1</button>:
+      <span id="rand1-out">----------</span>
+    </p>
+
+    <p>
+      <button id="rand2">Random 0 - 100</button>:
+      <span id="rand2-out">----------</span>
+    </p>
+
+    <p>
+      <button id="rand3">Random -5 to 5</button>:
+      <span id="rand3-out">----------</span>
+    </p>
+    <p>
+      <button id="rand4">
+        Random <input id="rand-in1" type="number" /> to
+        <input id="rand-in2" type="number" /></button
+      >: <span id="rand4-out">----------</span>
+    </p>
+
+    <hr />
+    <p>
+      <button id="random-size">RANDOM SIZE</button>
+      <button id="random-rgb">RANDOM COLOR</button>
+      <button id="reset">RESET PAGE</button>
+    </p>
+
+    <hr />
+
+    <p><button id="pic-btn">Add Pic</button></p>
+    <div id="pic-container"></div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
